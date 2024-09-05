@@ -1,0 +1,36 @@
+{
+    "name": "dss/m2-customer-photo",
+    "description":"Add a customer avatar as a customer attribute on customer edit, header",
+    "keywords": [
+        "magento 2",
+        "magento 2 customer avatar",
+        "magento avatar",
+        "magento 2 avatar"
+    ],
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Extension Team",
+            "email": "info@digitsoftsol.com",
+            "homepage": "https://www.digitsoftsol.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "magento/product-community-edition": "^2.4.5",
+        "magento/framework": "~102.0.6-p1||~103.0.1||~103.0.4"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dss\\CustomerAvatar\\": ""
+        }
+    }
+}
